@@ -15,6 +15,7 @@
     position:relative;
     left:10px;
     margin:5px;
+    object-fit: contain;
 }
 @media (max-width:400px) {
     .gallery{
