@@ -51,57 +51,56 @@ export default function Images() {
   return (
     <>
     <div className='gallery'>
-      <div className='pics'>
-        <img src={img45} alt=''style={{width:'100%'}}></img>
-        <img src={img46} alt=''style={{width:'100%'}}></img>
-        <img src={img3} alt=''style={{width:'100%'}}></img>
-        <img src={img4} alt=''style={{width:'100%'}}></img>
-        <img src={img5} alt=''style={{width:'100%'}}></img>
-        <img src={img6} alt=''style={{width:'100%'}}></img>
-        <img src={img7} alt=''style={{width:'100%'}}></img>
-        <img src={img8} alt=''style={{width:'100%'}}></img>
-        <img src={img9} alt=''style={{width:'100%'}}></img>
-        <img src={img31} alt=''style={{width:'100%'}}></img>
-        <img src={img11} alt=''style={{width:'100%'}}></img>
-        <img src={img12} alt=''style={{width:'100%'}}></img>
-        <img src={img13} alt=''style={{width:'100%'}}></img>
-        <img src={img14} alt=''style={{width:'100%'}}></img>
-        <img src={img15} alt=''style={{width:'100%'}}></img>
-        <img src={img16} alt=''style={{width:'100%'}}></img>
-        <img src={img27} alt=''style={{width:'100%'}}></img>
-        <img src={img18} alt=''style={{width:'100%'}}></img>
-        <img src={img26} alt=''style={{width:'100%'}}></img>
-        <img src={img20} alt=''style={{width:'100%'}}></img>
-        <img src={img21} alt=''style={{width:'100%'}}></img>
-        <img src={img22} alt=''style={{width:'100%'}}></img>
-        <img src={img23} alt=''style={{width:'100%'}}></img>
-        <img src={img24} alt=''style={{width:'100%'}}></img>
-        <img src={img25} alt=''style={{width:'100%'}}></img>
-        <img src={img32} alt=''style={{width:'100%'}}></img>
-        <img src={img17} alt=''style={{width:'100%'}}></img>
-        <img src={img28} alt=''style={{width:'100%'}}></img>
-        <img src={img29} alt=''style={{width:'100%'}}></img>
-        <img src={img30} alt=''style={{width:'100%'}}></img>
-        <img src={img10} alt=''style={{width:'100%'}}></img>
-        <img src={img40} alt=''style={{width:'100%'}}></img>
-        <img src={img33} alt=''style={{width:'100%'}}></img>
-        <img src={img34} alt=''style={{width:'100%'}}></img>
-        <img src={img35} alt=''style={{width:'100%'}}></img>
-        <img src={img36} alt=''style={{width:'100%'}}></img>
-        <img src={img37} alt=''style={{width:'100%'}}></img>
-        <img src={img38} alt=''style={{width:'100%'}}></img>
-        <img src={img39} alt=''style={{width:'100%'}}></img>
-        <img src={img19} alt=''style={{width:'100%'}}></img>
-        <img src={img41} alt=''style={{width:'100%'}}></img>
-        <img src={img42} alt=''style={{width:'100%'}}></img>
-        <img src={img43} alt=''style={{width:'100%'}}></img>
-        <img src={img44} alt=''style={{width:'100%'}}></img>
-        <img src={img1} alt=''style={{width:'100%'}}></img>
-        <img src={img2} alt=''style={{width:'100%'}}></img>
+        <img className='pics'src={img45} alt=''></img>
+        <img className='pics'src={img46} alt=''></img>
+        <img className='pics' src={img3} alt=''></img>
+        <img  className='pics'src={img4} alt=''></img>
+        <img  className='pics'src={img5} alt=''></img>
+        <img  className='pics'src={img6} alt=''></img>
+        <img  className='pics'src={img7} alt=''></img>
+        <img  className='pics'src={img8} alt=''></img>
+        <img  className='pics'src={img9} alt=''></img>
+        <img  className='pics'src={img31} alt=''></img>
+        <img className='pics' src={img11} alt=''></img>
+        <img className='pics' src={img12} alt=''></img>
+        <img  className='pics'src={img13} alt=''></img>
+        <img  className='pics'src={img14} alt=''></img>
+        <img  className='pics'src={img15} alt=''></img>
+        <img  className='pics'src={img16} alt=''></img>
+        <img  className='pics'src={img27} alt=''></img>
+        <img  className='pics'src={img18} alt=''></img>
+        <img  className='pics'src={img26} alt=''></img>
+        <img  className='pics'src={img20} alt=''></img>
+        <img  className='pics'src={img21} alt=''></img>
+        <img  className='pics'src={img22} alt=''></img>
+        <img  className='pics'src={img23} alt=''></img>
+        <img  className='pics'src={img24} alt=''></img>
+        <img  className='pics'src={img25} alt=''></img>
+        <img  className='pics'src={img32} alt=''></img>
+        <img  className='pics'src={img17} alt=''></img>
+        <img  className='pics'src={img28} alt=''></img>
+        <img  className='pics'src={img29} alt=''></img>
+        <img  className='pics'src={img30} alt=''></img>
+        <img  className='pics'src={img10} alt=''></img>
+        <img  className='pics'src={img40} alt=''></img>
+        <img  className='pics'src={img33} alt=''></img>
+        <img  className='pics'src={img34} alt=''></img>
+        <img className='pics' src={img35} alt=''></img>
+        <img  className='pics'src={img36} alt=''></img>
+        <img className='pics' src={img37} alt=''></img>
+        <img  className='pics'src={img38} alt=''></img>
+        <img  className='pics'src={img39} alt=''></img>
+        <img  className='pics'src={img19} alt=''></img>
+        <img  className='pics'src={img41} alt=''></img>
+        <img  className='pics'src={img42} alt=''></img>
+        <img  className='pics'src={img43} alt=''></img>
+        <img  className='pics'src={img44} alt=''></img>
+        <img  className='pics'src={img1} alt=''></img>
+        <img  className='pics'src={img2} alt=''></img>
       </div>
       
 
-    </div>
+
     </>
   )
 }

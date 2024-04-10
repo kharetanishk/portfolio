@@ -7,7 +7,7 @@ const All = () => {
     <>
     <div className='texts'>
     <h1>TANISHK KHARE</h1>
-    <h4><u>Computer Science Student ABC</u></h4>
+    <h4><u>Computer Science Student</u></h4>
     </div>
     <div className='introduction'>
     I'm thrilled to extend a warm welcome to you as you explore my mini-react-application.
